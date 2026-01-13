@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xheeyah Organics | Pure. Potent. Organic.</title>
+    <!-- Tailwind for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --lime: #32CD32;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .lime-text { color: var(--lime); }
+        .lime-bg { background-color: var(--lime); }
+        .border-lime { border-color: var(--lime); }
+        
+        /* Smooth scrolling for navigation */
+        html { scroll-behavior: smooth; }
+
+        .product-card {
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--lime);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tighter">XHEEYAH <span class="lime-text">ORGANICS</span></div>
+            <div class="hidden md:flex gap-8 text-sm uppercase tracking-widest font-medium">
+                <a href="#cleansers" class="nav-link">Cleansers</a>
+                <a href="#toners" class="nav-link">Toners</a>
+                <a href="#correctors" class="nav-link">Correctors</a>
+                <a href="#moisturizers" class="nav-link">Moisturizers</a>
+            </div>
+            <a href="https://wa.me/2340000000000" class="lime-bg text-white px-5 py-2 rounded-full text-sm font-bold">WhatsApp Order</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 text-center bg-[#fafafa]">
+        <div class="max-w-3xl mx-auto">
+            <span class="lime-text uppercase tracking-widest text-xs font-bold mb-4 block">Organic Skincare Excellence</span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Reveal your most <span class="italic">luminous</span> skin.</h1>
+            <p class="text-gray-500 text-lg mb-10 font-light">Pure, potent, and results-driven organic formulations crafted for the modern skin ritual.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#catalog" class="bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-gray-800 transition">View Catalog</a>
+                <a href="https://wa.me/2340000000000" class="border-2 border-lime lime-text px-8 py-4 rounded-full font-bold hover:bg-lime-50 transition">Consult a Specialist</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog -->
+    <main id="catalog" class="max-w-5xl mx-auto px-6 py-20">
+        
+        <!-- SECTION: CLEANSERS -->
+        <section id="cleansers" class="mb-20">
+            <h2 class="text-3xl mb-10 pb-4 border-b border-gray-100 italic">01. The Cleansers</h2>
+            <div class="grid gap-12">
+                <!-- Product -->
+                <div class="product-card">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-semibold">Hydrating Gentle Cleansing Gel</h3>
+                        <span class="lime-text text-xl font-bold">₦7,500 – ₦14,500</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 font-light">The foundation of a moisture-first skincare routine.</p>
+                    <div class="flex gap-4 text-xs font-bold uppercase tracking-tighter text-gray-400 mb-4">
+                        <span class="px-2 py-1 border border-gray-200 rounded">100ml / ₦7,500</span>
+                        <span class="px-2 py-1 border border-gray-200 rounded">250ml / ₦14,500</span>
+                    </div>
+                    <p class="text-sm"><strong class="lime-text">Key Function:</strong> Gently removes impurities while preserving the natural skin barrier.</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-semibold">Anti-Acne Cleansing Gel</h3>
+                        <span class="lime-text text-xl font-bold">₦9,500 – ₦18,000</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 font-light">Potent antibacterial action for clear, breathable skin.</p>
+                    <div class="flex gap-4 text-xs font-bold uppercase tracking-tighter text-gray-400 mb-4">
+                        <span class="px-2 py-1 border border-gray-200 rounded">100ml / ₦9,500</span>
+                        <span class="px-2 py-1 border border-gray-200 rounded">250ml / ₦18,000</span>
+                    </div>
+                    <p class="text-sm"><strong class="lime-text">Key Function:</strong> Specifically targets bacteria and excess oil to prevent breakouts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: TONERS -->
+        <section id="toners" class="mb-20">
+            <h2 class="text-3xl mb-10 pb-4 border-b border-gray-100 italic">02. The Toners</h2>
+            <div class="grid gap-12">
+                <div class="product-card">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-semibold">Hydrating Toner</h3>
+                        <span class="lime-text text-xl font-bold">₦6,000 – ₦11,500</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 font-light">Balances pH and prepares skin for deeper hydration.</p>
+                    <div class="flex gap-4 text-xs font-bold uppercase tracking-tighter text-gray-400 mb-4">
+                        <span class="px-2 py-1 border border-gray-200 rounded">100ml / ₦6,000</span>
+                        <span class="px-2 py-1 border border-gray-200 rounded">250ml / ₦11,500</span>
+                    </div>
+                    <p class="text-sm"><strong class="lime-text">Key Function:</strong> Rebalances the skin surface and preps for serum absorption.</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-semibold">Acne Face Toner</h3>
+                        <span class="lime-text text-xl font-bold">₦8,500</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 font-light">Clinical organic treatment for active congestion.</p>
+                    <div class="flex gap-4 text-xs font-bold uppercase tracking-tighter text-gray-400 mb-4">
+                        <span class="px-2 py-1 border border-gray-200 rounded">100ml / ₦8,500</span>
+                    </div>
+                    <p class="text-sm"><strong class="lime-text">Key Function:</strong> Targeted breakout treatment for smoother, clearer skin.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: CORRECTORS -->
+        <section id="correctors" class="mb-20">
+            <h2 class="text-3xl mb-10 pb-4 border-b border-gray-100 italic">03. Correctors & Serums</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="product-card">
+                    <h3 class="text-2xl font-semibold mb-2">Vit C + 2% Hyaluronic Acid</h3>
+                    <span class="lime-text text-xl font-bold block mb-4">₦10,000</span>
+                    <p class="text-gray-600 text-sm mb-4">30ml — Brightening and plumping serum for daily radiance.</p>
+                    <p class="text-sm italic"><strong>Function:</strong> Fades dark spots while deep-hydrating.</p>
+                </div>
+                <div class="product-card">
+                    <h3 class="text-2xl font-semibold mb-2">Spot Fix</h3>
+                    <span class="lime-text text-xl font-bold block mb-4">₦15,000</span>
+                    <p class="text-gray-600 text-sm mb-4">30ml — Intensive corrector for stubborn blemishes.</p>
+                    <p class="text-sm italic"><strong>Function:</strong> Rapid correction of post-acne marks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: MOISTURIZERS -->
+        <section id="moisturizers" class="mb-20">
+            <h2 class="text-3xl mb-10 pb-4 border-b border-gray-100 italic">04. Moisturizers</h2>
+            <div class="grid gap-8 md:grid-cols-2">
+                <div class="p-6 border border-gray-100 rounded-lg">
+                    <h3 class="text-xl font-bold mb-1">Face Repair Cream</h3>
+                    <p class="lime-text font-bold mb-3">₦8,500 – ₦16,000</p>
+                    <p class="text-sm text-gray-500 mb-4 italic font-light">Barrier repair and deep skin healing.</p>
+                    <div class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">50ml / 100ml</div>
+                </div>
+                <div class="p-6 border border-gray-100 rounded-lg">
+                    <h3 class="text-xl font-bold mb-1">Fairness Face Cream</h3>
+                    <p class="lime-text font-bold mb-3">₦14,000 – ₦28,000</p>
+                    <p class="text-sm text-gray-500 mb-4 italic font-light">Advanced radiance and tone evening.</p>
+                    <div class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">50g / 100g</div>
+                </div>
+                <div class="p-6 border border-gray-100 rounded-lg md:col-span-2">
+                    <h3 class="text-xl font-bold mb-1">Luxury Glow Oil</h3>
+                    <p class="lime-text font-bold mb-3">₦7,500 – ₦14,500</p>
+                    <p class="text-sm text-gray-500 mb-4 italic font-light">The ultimate luminous glass-skin finish.</p>
+                    <div class="text-[10px] text-gray-400 uppercase tracking-widest font-bold">100ml / 250ml</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: RITUALS -->
+        <section id="rituals" class="mb-20 bg-gray-50 p-8 rounded-2xl">
+            <h2 class="text-3xl mb-10 italic">05. Organic Rituals</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold">Qasil Powder</h3>
+                    <p class="lime-text font-bold mb-2">₦5,000 – ₦9,500</p>
+                    <p class="text-sm text-gray-600 mb-4">Traditional Somali leaf exfoliant for silk-soft skin texture.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">Glow Mask</h3>
+                    <p class="lime-text font-bold mb-2">₦5,000 – ₦10,000</p>
+                    <p class="text-sm text-gray-600 mb-4">Instant resurfacing treatment for immediate brightness.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6">Invest in your skin.</h2>
+        <p class="text-gray-400 mb-10 max-w-lg mx-auto font-light">Chat with us on WhatsApp for a personalized skin consultation and secure ordering.</p>
+        <a href="https://wa.me/2340000000000" class="lime-bg px-10 py-4 rounded-full text-white font-bold text-lg inline-block hover:scale-105 transition-transform">
+            Send Order via WhatsApp
+        </a>
+        <div class="mt-16 pt-8 border-t border-white/10 text-[10px] tracking-widest uppercase text-gray-500">
+            Xheeyah Organics — Pure. Potent. Organic.
+        </div>
+    </footer>
+
+</body>
+</html>
+
